@@ -1,8 +1,8 @@
-#foodhub-clr {
+span {
   color: #ff1744;
 }
-#cng-f-s {
-  font-size: 14px;
+.cng-f-s {
+  font-size: 20px;
 }
 .h-tag-clr1 {
     
@@ -62,6 +62,7 @@ body{
 }
 #p-center{
     padding: 0px 20% 0 20%;
+    font-size: 20px;
 }
 .R-T-img-sizing{
     height:80%;
@@ -85,7 +86,34 @@ body{
 .last-p-sizing{
     text-align:left;
     padding:0 20% 0 20%;
+    font-size: 14px;
 }
 .l-t-p-d{
     border-radius: 15px;
+}
+#followes{
+    display:flex;
+    box-shadow: 2px 2px 8px #E0E0E0;
+    margin:0 20% 40px 20% ;
+    border-radius: 15px;
+}
+.social-midea-info{
+    width:33.3%;
+    padding:20px 40px 20px 40px;
+    
+}
+.l-align{
+    text-align: left;
+    padding-bottom: 0px;
+}
+.i-f-size{
+    font-size:35px;
+}
+#last-div{
+    padding:100px;
+    background-color:#03256C;
+
+}
+.last-hp-color{
+    color:#E0E0E0;
 }
