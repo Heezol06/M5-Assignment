@@ -1,0 +1,41 @@
+#foodhub-clr {
+  color: #ff1744;
+}
+#cng-f-s {
+  font-size: 14px;
+}
+#h-tag-clr1 {
+    
+  color:#231E23 ;
+  font-size: 50px;
+}
+body{
+    font-family: font-family: 'STIX Two Math', serif;
+}
+#div-sizing-1st{
+    padding-top: 20px;
+}
+#order-button{
+    text-decoration: none;
+    background-image: linear-gradient(#EF9A9A    ,#FF5252);
+    color:#ffff;
+    padding:8px 12px 8px 12px;
+    border-radius: 20px;
+}
+#fast-img-mod{
+    height: 500px;
+    width: 500px;
+    padding-top: 10px;
+    
+}
+.half-width{
+    width:50%;
+    padding:2px;
+}
+#set-div-sidebyside{
+    display: flex;
+}
+#second-img-mod{
+    height:400px;
+    width: 260px;
+}
