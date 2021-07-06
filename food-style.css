@@ -1,7 +1,14 @@
 #fast-section{
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color:#0A1931;
+    color:#E0E0E0;
+margin: 0;
+padding:20px 0 20px 0; 
+border-bottom:3px solid #ff1744;
     
 }
+
 span {
   color: #ff1744;
 }
@@ -52,7 +59,7 @@ body{
 }
 #about-me-part {
     display: flex;
-    background-image: url(my shape and photos/Frame\ 58.jpg);
+    background-image: url("my shape and photos/Frame 58.jpg");
     background-size: cover;
     padding: 0px;
 
@@ -62,8 +69,11 @@ body{
 }
 .hafl-width-2nd {
     width: 50%;
+    height: 100%;
     text-align: center;
+    padding-top: 70px;
 }
+
 #my-recipie{
     text-align:center;
     padding-top: 40px;
@@ -123,7 +133,33 @@ body{
 #last-div {
         padding: 30px 100px;
         background-color: #03256C;
+        border-top:3px  solid #ff1744;
     }
 .last-hp-color{
     color:#E0E0E0;
+}
+.about{
+    height: 100%;
+}
+.gallery{
+    display: flex;
+}
+#f-gallery{
+    font-family: 'Bebas Neue', cursive;
+}
+    
+    
+
+    
+
+#food-2nd-gallery{
+    padding: 0 25% 0 25%;
+    text-align: center;
+}
+.g-img{
+    height: 40%;
+    width: 35%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
 }
