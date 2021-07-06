@@ -4,7 +4,7 @@
 #cng-f-s {
   font-size: 14px;
 }
-#h-tag-clr1 {
+.h-tag-clr1 {
     
   color:#231E23 ;
   font-size: 50px;
@@ -15,12 +15,14 @@ body{
 #div-sizing-1st{
     padding-top: 20px;
 }
-#order-button{
+.button{
     text-decoration: none;
     background-image: linear-gradient(#EF9A9A    ,#FF5252);
     color:#ffff;
-    padding:8px 12px 8px 12px;
+    padding:10px 15px 10px 15px;
     border-radius: 20px;
+    margin-top: 50px;
+    display: inline-block;
 }
 #fast-img-mod{
     height: 500px;
@@ -34,8 +36,56 @@ body{
 }
 #set-div-sidebyside{
     display: flex;
+    padding-bottom: 100px;
 }
 #second-img-mod{
-    height:400px;
+    height:80%;
     width: 260px;
+    margin-left: 200px;
+
+    
+}
+#about-me-part{
+    display:flex;
+    background-image: url("my shape and photos/Frame\ 58.jpg");
+    background-size:cover;
+    padding:0px;
+    padding-bottom: 200px;
+    margin-left: 0px;
+}
+.hafl-width-2nd{
+    width:50%;
+}
+#my-recipie{
+    text-align:center;
+    padding-top: 40px;
+}
+#p-center{
+    padding: 0px 20% 0 20%;
+}
+.R-T-img-sizing{
+    height:80%;
+    width: 260px;
+    padding:20px;
+
+}
+#R-T-pic{
+    display:flex;
+    padding:100px 0 100px 0; 
+    border-radius: 15px;
+    
+}
+.make-three-part{
+    width:33.3%;
+    max-height:500px;
+    box-shadow: 4px 4px 8px #E0E0E0;
+    margin: 0 80px 0 80px;
+    border-radius: 15px;
+}
+.last-p-sizing{
+    text-align:left;
+    padding:0 20% 0 20%;
+}
+.l-t-p-d{
+    border-radius: 15px;
 }
