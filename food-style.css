@@ -1,3 +1,7 @@
+#fast-section{
+    text-align: center;
+    
+}
 span {
   color: #ff1744;
 }
@@ -11,6 +15,7 @@ span {
 }
 body{
     font-family: font-family: 'STIX Two Math', serif;
+    margin:0px;
 }
 #div-sizing-1st{
     padding-top: 20px;
@@ -36,7 +41,7 @@ body{
 }
 #set-div-sidebyside{
     display: flex;
-    padding-bottom: 100px;
+    padding: 100px;
 }
 #second-img-mod{
     height:80%;
@@ -45,16 +50,19 @@ body{
 
     
 }
-#about-me-part{
-    display:flex;
-    background-image: url("my shape and photos/Frame\ 58.jpg");
-    background-size:cover;
-    padding:0px;
-    padding-bottom: 200px;
+#about-me-part {
+    display: flex;
+    background-image: url(my shape and photos/Frame\ 58.jpg);
+    background-size: cover;
+    padding: 0px;
+
     margin-left: 0px;
+    
+    width: 100%;
 }
-.hafl-width-2nd{
-    width:50%;
+.hafl-width-2nd {
+    width: 50%;
+    text-align: center;
 }
 #my-recipie{
     text-align:center;
@@ -64,11 +72,12 @@ body{
     padding: 0px 20% 0 20%;
     font-size: 20px;
 }
-.R-T-img-sizing{
-    height:80%;
-    width: 260px;
-    padding:20px;
-
+.R-T-img-sizing {
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px;
+    border-radius: 31px;
 }
 #R-T-pic{
     display:flex;
@@ -76,11 +85,11 @@ body{
     border-radius: 15px;
     
 }
-.make-three-part{
-    width:33.3%;
-    max-height:500px;
-    box-shadow: 4px 4px 8px #E0E0E0;
-    margin: 0 60px 0 60px;
+.make-three-part {
+    width: 33.3%;
+    max-height: 500px;
+    box-shadow: 2px 4px 10px 10px #0000000f;
+    margin: 0 25px 0 25px;
     border-radius: 15px;
 }
 .last-p-sizing{
@@ -91,11 +100,12 @@ body{
 .l-t-p-d{
     border-radius: 15px;
 }
-#followes{
-    display:flex;
-    box-shadow: 2px 2px 8px #E0E0E0;
-    margin:0 20% 40px 20% ;
+#followes {
+    display: flex;
+    box-shadow: 2px 2px 8px #e0e0e0;
+    margin: 0 20% 40px 20%;
     border-radius: 15px;
+    padding: 20px 0;
 }
 .social-midea-info{
     width:33.3%;
@@ -108,12 +118,12 @@ body{
 }
 .i-f-size{
     font-size:35px;
+    padding:0;
 }
-#last-div{
-    padding:100px;
-    background-color:#03256C;
-
-}
+#last-div {
+        padding: 30px 100px;
+        background-color: #03256C;
+    }
 .last-hp-color{
     color:#E0E0E0;
 }
